@@ -62,7 +62,7 @@ author: Ir1d, Anguei, hsfzLZH1
         }
       }
       for (int i = 1; i <= n; i++) addedge(0, i, 0);
-      memset(dist, -0x3f, sizeof(dist));
+      memset(dist, 0x9f, sizeof(dist));
       dist[0] = 0;
       vis[0] = 1;
       q.push(0);
